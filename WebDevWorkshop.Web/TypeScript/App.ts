@@ -24,10 +24,12 @@ const modalService = new ModalService();
 const input = document.querySelector<HTMLInputElement>("input[type=text");
 const btn = document.querySelector<HTMLButtonElement>("#btnSearch");
 
+// listen for the keyup event to count the chars entered into text box
 const input$ = fromEvent(input, "keyup").pipe(map(x => (<HTMLInputElement>x.target).value));
 const search$ = fromEvent(btn, "click").pipe(tap(x => x.preventDefault()));
 
 input$.pipe(
+    // Set the number of chars you want as a limit before making the search available
     tap(x => btn.disabled = x.length <= 2),
     switchMap(x => search$.pipe(map(z => x)))
 ).subscribe(query => {
