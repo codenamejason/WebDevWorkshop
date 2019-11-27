@@ -33,4 +33,6 @@ _Note:_ If you don't have development certificates on your machine, you can add 
 ## Contact
 
 Feel free to contact me at [@ZeroKoll](https://twitter.com) or at chris at 59north dot com
+Updating... [@codenamejason](https://twitter.com) 
+## You Rock Chris!!!
 
