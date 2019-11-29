@@ -1,4 +1,4 @@
-# Web Development Wokshop Code
+# Web Development Wokshop Code Ctnd...
 
 This repo contains the code used for my demonstrations during the Web Development Workshop I present at various conferences. It contains the final code at the state it should be at the end of the day.
 
@@ -33,4 +33,6 @@ _Note:_ If you don't have development certificates on your machine, you can add 
 ## Contact
 
 Feel free to contact me at [@ZeroKoll](https://twitter.com) or at chris at 59north dot com
+Updating... [@codenamejason](https://twitter.com) 
+## You Rock Chris!!!
 
