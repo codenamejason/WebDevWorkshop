@@ -4,12 +4,13 @@
 
 using System;
 
-namespace IdentityServer4.Quickstart.UI
+namespace WebDevWorkshop.IdentityServer.Quickstart.Account
 {
     public class AccountOptions
     {
         public static bool AllowLocalLogin = true;
         public static bool AllowRememberLogin = true;
+        // Set how long to remember the login
         public static TimeSpan RememberMeLoginDuration = TimeSpan.FromDays(30);
 
         public static bool ShowLogoutPrompt = true;
