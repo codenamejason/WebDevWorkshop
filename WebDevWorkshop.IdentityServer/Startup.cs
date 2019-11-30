@@ -67,6 +67,16 @@ namespace WebDevWorkshop.IdentityServer
                         {
                             new Claim("name", "Chris Klug")
                         }
+                    },
+                    new TestUser
+                    {
+                        SubjectId = "2",
+                        Username = "Jaxcoder",
+                        Password = "JaxCodes@1",
+                        Claims =
+                        {
+                            new Claim("name", "Jason Romero")
+                        }
                     }
                 })
                 .AddDeveloperSigningCredential();

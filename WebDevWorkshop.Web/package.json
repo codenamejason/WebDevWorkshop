@@ -3,7 +3,8 @@
   "scripts": {
     "build": "webpack",
     "build:prod": "webpack --env.prod",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "start": "webpack --env.dev"
   },
   "devDependencies": {
     "@types/knockout": "^3.4.66",

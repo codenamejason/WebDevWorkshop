@@ -17,7 +17,7 @@ namespace WebDevWorkshop.Api
                 {
                     config
                         //.AddJsonFile("appSettings.json", false)
-                        //.AddJsonFile($"appSettings.{ctx.HostingEnvironment.EnvironmentName}.json", true)
+                        .AddJsonFile($"appSettings.{ctx.HostingEnvironment.EnvironmentName}.json", true)
                         .AddEnvironmentVariables("WDW_");
                 })
                 .UseStartup<Startup>();
